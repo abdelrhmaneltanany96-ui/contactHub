@@ -1,0 +1,197 @@
+:root {
+    --main-color: rgb(99, 51, 249);
+    --total-color:rgb(13,110,253);
+    --total-transparent-color:rgb(219,234,254);
+    --favorite-color:rgb(255,193,7);
+    --favorite-transparent-color:rgb(255,249,236);
+    --emergency-color:rgb(220,53,69);
+    --emergency-transprent-color:rgb(255,249,236);
+    --gray-transprent-color:rgb(202,202,202);
+}
+.svg-container {
+    background-color: var(--main-color);
+}
+.svg-container .main-svg{
+    width: 36px;
+}
+.nav-title .navbar-brand span {
+    color: var(--main-color);
+}
+.nav-title p {
+    font-size: 14px;
+}
+@media screen and (min-width: 576px) {
+    .main-svg {
+        width: 44px !important;
+    }
+
+    .svg-container {
+        height: 62%!important;
+    }
+    .nav-left{
+        gap: 8px!important;
+    }
+     .nav-right{
+        gap: 8px!important;
+    }
+     .hambozo2 {
+        width: 96px !important;
+        padding: 16px!important;
+    }
+    .contact-model{
+        width: 80%;
+    }
+}
+@media screen and (min-width: 992px){
+    .contact-model{
+        width: 60%;
+    }
+}
+.svg-ring {
+    transition: 0.5s;
+}
+.svg-ring:hover {
+    background-color: var(--gray-transprent-color);
+}
+.svg-setting {
+    transition: 0.5s;
+}
+.svg-setting:hover {
+    background-color: var(--gray-transprent-color);
+}
+.btn-container {
+    background-color: var(--main-color);
+    border-radius: 7px;
+    transition: 0.3s;
+}
+.btn-container:hover {
+    transform: scale(1.05);
+}
+.add {
+    white-space: nowrap;
+    background-color: transparent;
+}
+.favorites{
+    background-color: var(--favorite-transparent-color);
+}
+.emergency{
+    background-color: var(--emergency-transprent-color);
+}
+.svg-people {
+    width: fit-content;
+}
+.inside-header{
+    color: var(--main-color);
+}
+/* which i need to write it here to use it in JS */
+#overlay{
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(1px);
+}
+#overlayInner{
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(1px);
+}
+#overlay2{
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.9);
+    backdrop-filter: blur(1px);
+}
+#contactModel{
+    width: 90%;
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+#wrongName{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+#wrongPhone{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+#invalidPhone{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+#invalidEmail{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}#completeData{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+}
+#totalEmptyState{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+#contactFormInTotal{
+    display: none;
+}
+#sureDelete{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 1000;
+    display: none;
+}
+#favoriteEmptyState{
+    display: flex;
+}
+#contactFormInFavorite{
+    display: none;
+}
+#emergencyEmptyState{
+    display: flex;
+}
+#contactFormInEmergency{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
