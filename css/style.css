@@ -71,6 +71,9 @@
     white-space: nowrap;
     background-color: transparent;
 }
+.eg{
+    font-size: 10px;
+}
 .favorites{
     background-color: var(--favorite-transparent-color);
 }

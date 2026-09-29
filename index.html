@@ -67,23 +67,23 @@
 
     <!-- contact model and overlay and some of alerts -->
     <div id="overlay"></div>
-    <div id="contactModel" class="contact-model rounded-3 w-50 m-auto">
-        <div class="contact-model w-100 m-auto bg-white p-4 rounded-3 d-flex flex-column gap-2">
-            <div class="pt-3 d-flex justify-content-between">
+    <div id="contactModel" class="contact-model rounded-3 w-75 m-auto">
+        <div class="contact-model w-100 m-auto bg-white p-3 rounded-3 d-flex flex-column gap-2">
+            <div class="d-flex">
                 <div class="">
                     <h3 class="fw-bold">Add New Contact</h3>
                 </div>
             </div>
             <div class="">
-                <div class="form-floating mb-3">
+                <div class="form-floating mb-2">
                     <input id="contactNameInput" type="text" class="form-control">
                     <label class="fw-bolder text-black" for="contactNameInput">Name * <span
-                            class=" eg text-muted fw-bolder">
+                            class="eg text-muted fw-bolder">
                             e.g., jhon Miller</span></label>
                 </div>
             </div>
             <div class="">
-                <div class="form-floating mb-3">
+                <div class="form-floating mb-2">
                     <input id="contactPhoneInput" type="tel" class="form-control">
                     <label class="fw-bolder text-black" for="contactPhoneInput">Number * <span
                             class="eg text-muted fw-bolder">
@@ -91,22 +91,22 @@
                 </div>
             </div>
             <div class="">
-                <div class="form-floating mb-3">
+                <div class="form-floating mb-2">
                     <input id="contactEmailInput" type="email" class="form-control" placeholder="Enter The E-mail">
                     <label class="fw-bolder text-black" for="contactEmailInput">E-mail<span
-                            class=" eg text-muted fw-bolder">
+                            class="eg text-muted fw-bolder">
                             e.g., jhon @gmail.com</span></label>
                 </div>
             </div>
             <div class="">
-                <div class="form-floating mb-3">
+                <div class="form-floating mb-2">
                     <input id="contactAddressInput" type="text" class="form-control" placeholder="Enter The Address">
                     <label class="fw-bolder text-black" for="contactAddressInput">Address<span
-                            class=" eg text-muted fw-bolder">
+                            class="eg text-muted fw-bolder">
                             e.g., cairo</span></label>
                 </div>
             </div>
-            <div class="pb-3">
+            <div class="pb-2">
                 <select id="contactCategoryInput" class="form-select" aria-label="Default select example">
                     <option value="" selected disabled>Select a group</option>
                     <option value="Family">Family</option>
@@ -116,7 +116,7 @@
                     <option value="Others">Others</option>
                 </select>
             </div>
-            <div class="d-flex gap-4 py-3">
+            <div class="d-flex gap-4">
                 <div class="form-check d-flex align-items-center gap-1">
                     <input id="checkBoxFavorite" class="form-check-input" type="checkbox" value="">
                     <label class="form-check-label fw-medium" for="checkBoxFavorite">
@@ -324,9 +324,9 @@
 <!-- contact form and delete alert -->
     <div id="contactFormInTotal" class="row p-5 bg-light rounded-3"></div>
     <div id="overlay2"></div>
-    <div id="sureDelete" class="p-3">
+    <div id="sureDelete" class="w-75">
         <div
-            class="bg-white w-75 m-auto rounded-3 p-4 me-auto d-flex flex-column gap-3 justify-content-center align-content-center align-items-center">
+            class="bg-white w-100 m-auto rounded-3 text-center p-3 me-auto d-flex flex-column gap-2 justify-content-center align-content-center align-items-center">
             <div class="text-danger">
                 <i class="fs-1 fa-solid fa-circle-exclamation"></i>
             </div>
